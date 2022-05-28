@@ -1,14 +1,14 @@
 :root {
-    --primary-light:#D8CBC7;
-    --primary-light-2:#FCD4C5;
-    --secondary-dark:#33673B;
-    --secondary-light:#E4F2E6;
-    --secondary-dark-2:#575255;
+    --primary-light: #D8CBC7;
+    --primary-light-2: #FCD4C5;
+    --secondary-dark: #33673B;
+    --secondary-light: #E4F2E6;
+    --secondary-dark-2: #575255;
 
 }
 
 
-body{
+body {
     background-color: var(--primary-light);
     color: #2e333f;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,7 +24,7 @@ body{
     box-shadow: 1px 1px 5px #3333;
 }
 
-h1{
+h1 {
     margin: 0;
     border-bottom: 4px solid var(--primary-light);
     color: var(--secondary-dark-2);
@@ -73,7 +73,9 @@ footer {
     color: #2e333f;
 }
 
-table, th, td {
+table,
+th,
+td {
     margin: auto;
     border: 4px solid var(--secondary-dark);
     border-collapse: collapse;
@@ -104,7 +106,7 @@ table.first tr:nth-child(odd)>td {
     text-align: center;
 }
 
-.red-text{
+.red-text {
     color: red;
 }
 
@@ -117,12 +119,43 @@ table.first tr:nth-child(odd)>td {
     background-color: cyan;
 }
 
+.bg-magenta {
+    background-color: magenta;
+}
+
 .align-bottom {
     vertical-align: bottom;
 }
+
 .align-right {
     text-align: end;
 }
+
 .align-left {
     text-align: start;
+}
+
+/* Ejercicio 14 */
+
+#container-comp-img-table {
+    position: relative;
+    max-width: 100%;
+    height: 700px;
+}
+
+#container-comp-img-table img {
+	position: absolute;
+	display: block;
+	max-width: 100%;
+	filter: opacity(0.5);
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#container-comp-img-table table {
+    position: relative;
+    width: 80%;
+    top: 50%;
+	transform: translateY(-50%);
+    text-align: center;
 }

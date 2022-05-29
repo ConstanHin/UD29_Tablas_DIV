@@ -179,15 +179,116 @@ table.first tr:nth-child(odd)>td {
 }
 
 #tabla-16 .bg-color1 {
-   background-color: #ffcc99; 
-}
-#tabla-16 .bg-color2 {
-   background-color: #fdfd98; 
+    background-color: #ffcc99;
 }
 
-#tabla-16, th, td {
-	margin: auto;
-	border: 1px solid black;
-	border-collapse: initial;
-	padding: 0.3rem 0.5rem;
+#tabla-16 .bg-color2 {
+    background-color: #fdfd98;
 }
+
+#tabla-16,
+th,
+td {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: initial;
+    padding: 0.3rem 0.5rem;
+}
+
+/* Ejercicio 17 */
+
+#background-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-image: url(../images/ac.jpg);
+}
+
+.square {
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 1.5rem;
+}
+
+.square span {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+}
+
+#sq-1 {
+    background-image: url(../images/back_mantel.jpg);
+}
+
+#sq-2>div {
+    background-image: url(../images/back_mantel.jpg);
+    height: 70%;
+    width: 70%;
+    margin: 15%;
+}
+
+#sq-3 {
+    background-image: url(../images/back_mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sq-4,
+#sq-6,
+#sq-7,
+#sq-8 {
+    background-color: #f6f3ee;
+}
+
+#sq-4>div,
+#sq-6>div {
+    background-image: url(../images/back_mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+    width: 70%;
+    margin: 15%;
+}
+
+#sq-5 {
+    background-image: url(../images/dh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sq-6>div {
+    background-image: url(../images/dh.jpg);
+}
+
+#sq-7>div,
+#sq-8>div {
+    background-image: url(../images/dh_2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+#sq-8>div {
+    background-image: url(../images/dh_3.jpg);
+}
+
+#sq-9 {
+    background: linear-gradient(90deg, rgba(212, 254, 84, 1) 0%, rgba(93, 108, 79, 1) 100%);
+}
+
+#sq-10 {
+    background: linear-gradient(180deg, rgba(234, 179, 160, 1) 0%, rgba(121, 36, 1, 1) 71%, rgba(178, 98, 69, 1) 100%);
+}
+
+#sq-11 {
+    background: linear-gradient(180deg, rgba(241, 245, 220, 1) 0%, rgba(65, 119, 53, 1) 100%);
+}
+
+#sq-12 {
+    background: linear-gradient(180deg, rgba(64,118,55,0) 0%, rgba(64,118,55,1) 100%);}

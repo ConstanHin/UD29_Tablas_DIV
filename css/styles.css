@@ -338,7 +338,8 @@ td {
 
 /* Ejercicio 19 */
 /* Sobreescribir las reglas de las tablas anteriores */
-#tabla-19, #tabla-19 th, #tabla-19 td {
+#tabla-19, #tabla-19 th, #tabla-19 td,
+#tabla-20, #tabla-20 th, #tabla-20 td {
     margin: 0;
     border: 1px solid black;
     border-collapse: initial;
@@ -349,7 +350,8 @@ td {
     font-family: serif;
 }
 
-#tabla-19 th{
+#tabla-19 th,
+#tabla-20 th{
     text-align: center;
 }
 

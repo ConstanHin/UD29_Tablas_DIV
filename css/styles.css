@@ -144,18 +144,50 @@ table.first tr:nth-child(odd)>td {
 }
 
 #container-comp-img-table img {
-	position: absolute;
-	display: block;
-	max-width: 100%;
-	filter: opacity(0.5);
-	top: 50%;
-	transform: translateY(-50%);
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    filter: opacity(0.5);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #container-comp-img-table table {
     position: relative;
     width: 80%;
     top: 50%;
-	transform: translateY(-50%);
+    transform: translateY(-50%);
     text-align: center;
+}
+
+/* Tabla ejercicio 16 */
+#tabla-16 {
+    border-style: groove;
+    border-collapse: separate;
+}
+
+#tabla-16 td {
+    background-color: #ffffcc;
+    color: brown;
+    text-align: center;
+}
+
+#tabla-16 th {
+    background-color: #669966;
+    color: rgb(105, 27, 27);
+    font-weight: 100;
+}
+
+#tabla-16 .bg-color1 {
+   background-color: #ffcc99; 
+}
+#tabla-16 .bg-color2 {
+   background-color: #fdfd98; 
+}
+
+#tabla-16, th, td {
+	margin: auto;
+	border: 1px solid black;
+	border-collapse: initial;
+	padding: 0.3rem 0.5rem;
 }
